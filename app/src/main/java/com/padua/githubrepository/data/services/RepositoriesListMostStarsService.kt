@@ -7,6 +7,6 @@ import retrofit2.http.GET
 
 interface RepositoriesListMostStarsService {
 
-    @GET("repositories?q=language:kotlin&sort=stars&page=1")
+    @GET("repositories?q=language:kotlin&sort=stars")
     suspend fun listRepos(): Repo
 }

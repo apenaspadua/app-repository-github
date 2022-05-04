@@ -10,6 +10,9 @@
         <entry key="..\:/Users/padua/Projects/GithubRepository/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/padua/Projects/GithubRepository/app/src/main/res/layout/home_fragment.xml" value="0.33" />
         <entry key="..\:/Users/padua/Projects/GithubRepository/app/src/main/res/layout/item_repo.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_repo.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1695" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1695" />
       </map>
     </option>
   </component>

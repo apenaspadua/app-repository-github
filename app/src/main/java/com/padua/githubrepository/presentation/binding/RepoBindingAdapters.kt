@@ -16,8 +16,8 @@ fun ImageView.setImageProfile(repo: Repo.Item) {
         circularProgressDrawable.centerRadius = 30f
         circularProgressDrawable.start()
 
-//        Glide.with(this).load(repo)
-//            .placeholder(circularProgressDrawable).into(this)
+        Glide.with(this).load(repo.owner?.avatar_url)
+            .placeholder(circularProgressDrawable).into(this)
     }
 }
 
@@ -31,7 +31,7 @@ fun TextView.setRepoName(repo: Repo.Item) {
 @BindingAdapter("authorName")
 fun TextView.setAuthorName(repo: Repo.Item) {
     repo.let {
-        text = it.full_name
+        text = it.owner?.login
     }
 }
 

@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.padua.githubrepository.data.model.Repo
+import androidx.recyclerview.widget.RecyclerView
 import com.padua.githubrepository.databinding.HomeFragmentBinding
 import com.padua.githubrepository.presentation.adapter.RepoListAdapter
 import org.koin.androidx.viewmodel.ext.android.viewModel
+
 
 class HomeFragment: Fragment() {
 

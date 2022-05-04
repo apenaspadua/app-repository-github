@@ -20,18 +20,6 @@
             android:layout_height="match_parent"
             android:background="@color/light_grey">
 
-            <TextView
-                android:id="@+id/homeHelloText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_regular"
-                android:text="@{}"
-                android:textColor="@color/grey"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/homeRv"
                 android:layout_width="0dp"
